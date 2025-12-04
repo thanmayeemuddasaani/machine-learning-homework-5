@@ -37,6 +37,7 @@ def scaled_dot_product_attention(Q, K, V):
     attention_weights = softmax(scaled_scores)
     context = np.dot(attention_weights, V)
     return attention_weights, context
+```
 
 ---
 ## 1. Scaled Dot-Product Attention Output
